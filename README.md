@@ -19,138 +19,163 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
   - [official notes](Lecture/Lecture1/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=8rXD5-xhemo)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=1)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/1)
 
 - Lecture 2: Word Vectors and Word Senses
   - [slides](Lecture/Lecture2/slides/) 
   - [official notes](Lecture/Lecture2/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=2)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=2)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/2)
 
 - Lecture 3: Word Window Classification, Neural Networks, and Matrix Calculus
   - [slides](Lecture/Lecture3/slides/) 
   - [official notes](Lecture/Lecture3/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=8CWyBNX6eDo)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=3)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/3)
 
 - Lecture 4: Backpropagation
   - [slides](Lecture/Lecture4/slides/) 
   - [official notes](Lecture/Lecture4/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=4)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=4)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/4)
 
 - Lecture 5: Dependency Parsing
   - [slides](Lecture/Lecture5/slides/) 
   - [official notes](Lecture/Lecture5/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=5)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=5)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/5)
 
 - Lecture 6: Language Models and RNNs
   - [slides](Lecture/Lecture6/slides/) 
   - [official notes](Lecture/Lecture6/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=6)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=6)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/6)
 
 - Lecture 7: Vanishing Gradients, Fancy RNNs
   - [slides](Lecture/Lecture7/slides/) 
   - [official notes](Lecture/Lecture7/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=7)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=7)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/7)
 
 - Lecture 8: Translation, Seq2Seq, Attention
   - [slides](Lecture/Lecture8/slides/) 
   - [official notes](Lecture/Lecture8/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=7m6noV5-l1E&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=8)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=8)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/8)
 
 - Lecture 9: Practical Tips for Projects
   - [slides](Lecture/Lecture9/slides/) 
   - [official notes](Lecture/Lecture9/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=9)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=9)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/9)
 
 - Lecture 10: Question Answering
   - [slides](Lecture/Lecture10/slides/) 
   - [official notes](Lecture/Lecture10/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yIdF-17HwSk&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=10)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=10)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/10)
 
 - Lecture 11: Convolutional Networks for NLP
   - [slides](Lecture/Lecture11/slides/) 
   - [official notes](Lecture/Lecture11/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=11)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=11)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/11)
 
 - Lecture 12: Subword Models
   - [slides](Lecture/Lecture12/slides/) 
   - [official notes](Lecture/Lecture12/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=9oTHFx0Gg3Q&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=12)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=12)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/12)
 
 - Lecture 13: Contextual Word Embeddings
   - [slides](Lecture/Lecture13/slides/) 
   - [official notes](Lecture/Lecture14/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=13)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=13)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/13)
 
 - Lecture 14: Transformers and Self-Attention
   - [slides](Lecture/Lecture14/slides/) 
   - [official notes](Lecture/Lecture14/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=14)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=14)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/14)
 
 - Lecture 15: Natural Language Generation
   - [slides](Lecture/Lecture15/slides/) 
   - [official notes](Lecture/Lecture15/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=15)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=15)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/15)
 
 - Lecture 16: Convolutional Networks for NLP
   - [slides](Lecture/Lecture16/slides/) 
   - [official notes](Lecture/Lecture16/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=16)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=16)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/16)
 
 - Lecture 17: Multitask Learning
   - [slides](Lecture/Lecture17/slides/) 
   - [official notes](Lecture/Lecture17/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=9oTHFx0Gg3Q&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=17)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=17)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/17)
 
 - Lecture 18: Constituency Parsing, TreeRNNs
   - [slides](Lecture/Lecture18/slides/) 
   - [official notes](Lecture/Lecture18/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=18)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=18)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/18)
 
 - Lecture 19: Bias in AI
   - [slides](Lecture/Lecture19/slides/) 
   - [official notes](Lecture/Lecture19/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=19)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=19)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/19)
 
 - Lecture 20: Future of NLP + Deep Learning
   - [slides](Lecture/Lecture20/slides/) 
   - [official notes](Lecture/Lecture20/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=20)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=20)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/20)
 
 
 ## 作业
 
 - 作业一
   - [作业链接](Assignments/official/homework1/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21)
 
 - 作业二
   - [作业链接](Assignments/official/homework2/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/22)
 
 - 作业三
   - [作业链接](Assignments/official/homework3/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/23)
 
 - 作业四
   - [作业链接](Assignments/official/homework4/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/24)
 
 - 作业五
   - [作业链接](Assignments/official/homework5/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/25)
 
 ## 个人笔记、感悟和作业提交流程
 
