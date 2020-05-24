@@ -119,7 +119,7 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=15)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/15)
 
-- Lecture 16: Convolutional Networks for NLP
+- Lecture 16: Coreference Resolution
   - [slides](Lecture/Lecture16/slides/) 
   - [official notes](Lecture/Lecture16/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=16)
