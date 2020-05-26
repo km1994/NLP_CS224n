@@ -25,26 +25,45 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
 
 ## 课程介绍
 
-- Lecture 1: Introduction and Word Vectors （3天）
+- Task 1: Introduction and Word Vectors （3天）
   - [slides](Lecture/Lecture1/slides/) 
   - [official notes](Lecture/Lecture1/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=8rXD5-xhemo)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=1)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/1)
+  - 简介
+    - 这一讲主要讲了NLP研究的对象，我们如何表示单词的含义，以及Word2Vec方法的基本原理。
+  - [参考](Lecture/Lecture1/reference/)
 
-- Lecture 2: Word Vectors and Word Senses （3天）
+- Task 2: Word Vectors and Word Senses （3天）
   - [slides](Lecture/Lecture2/slides/) 
   - [official notes](Lecture/Lecture2/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=2)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=2)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/2)
+  - 简介
+    - Task 1：Word Vector 主要介绍了Word2Vec模型，它是一种基于local context window的direct prediction预测模型，对于学习word vector，还有另一类模型是count based global matrix factorization，这一讲主要介绍了后一类模型以及Manning教 授组结合两者优点提出的 GloVe 模型。
+  - [参考](Lecture/Lecture2/reference/)
 
-- Lecture 3: Word Window Classification, Neural Networks, and Matrix Calculus （3天）
-  - [slides](Lecture/Lecture3/slides/) 
-  - [official notes](Lecture/Lecture3/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=8CWyBNX6eDo)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=3)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/3)
+- Task 3: Subword Models （3天）
+  - [slides](Lecture/Lecture12/slides/) 
+  - [official notes](Lecture/Lecture12/official_notes/)
+  - [youtube video](https://www.youtube.com/watch?v=9oTHFx0Gg3Q&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=12)
+  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=12)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/12)
+  - 简介
+    - 之前的 word2vec 和 glove 基本上都是基于word单词作为基本单位的，但是其缺点是不能很好的解决out-of-vocabulary即单词不在词汇库里的情况，且对于单词的一些词法上的修饰(morphology)处理的也不是很好。一个自然的想法就是能够利用比word更基本的组成来建立模型，以更好的解决这些问题。本节思考采用 n-gram 思想训练 word vector 模型，也就是 FastText。
+  - [参考](Lecture/Lecture12/reference/)
+
+- Task 4: Contextual Word Embeddings  （3天）
+  - [slides](Lecture/Lecture13/slides/) 
+  - [official notes](Lecture/Lecture14/official_notes/)
+  - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=13)
+  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=13)
+  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/13)
+  - 简介
+    - 之前的 Word Vector 如 Word2Vec, GloVe, fastText 等对每个单词仅有一种表示，而通常单词的含义依赖于其上下文会有所不同，而且每个单词不仅有一方面特征，而应有各方面特征如语义特征，语法特征等，这一讲集中讨论contextual word representation，主要比较了ELMO，GPT与BERT模型。
+  - [参考](Lecture/Lecture13/reference/)
 
 ## 课程作业介绍
 
@@ -54,6 +73,14 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
    
 2. 中文词向量的探索
    - [作业链接](Assignments/official/homework1/zh/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+  
+3. FastText 探索
+   - [作业链接](Assignments/official/homework1/FastText/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+
+4. Bert 探索
+   - [作业链接](Assignments/official/homework1/Bert/)
    - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
 
 ## 个人笔记、感悟和作业提交流程
@@ -76,4 +103,5 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
 1. [CS224n 课程主页](http://web.stanford.edu/class/cs224n/index.html)
 2. [CS224n-winter-together](https://github.com/xixiaoyao/CS224n-winter-together)
 3. [CS224n_winter2019_notes_and_assignments](https://github.com/lrs1353281004/CS224n_winter2019_notes_and_assignments)
+  
 
