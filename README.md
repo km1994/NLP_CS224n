@@ -1,4 +1,4 @@
-# Datawhale CS224N 组队学习课程
+# NLP组队学习 任务大纲
 
 ## 项目由来
 
@@ -12,170 +12,85 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
 
 自然语言处理( NLP )是信息时代最重要的技术之一，也是人工智能的重要组成部分。NLP的应用无处不在，因为人们几乎用语言交流一切：网络搜索、广告、电子邮件、客户服务、语言翻译、医疗报告等。近年来，深度学习方法在许多不同的NLP任务中获得了非常高的性能，使用了不需要传统的、任务特定的特征工程的单个端到端神经模型。在本课程中，学生将全面了解NLP深度学习的前沿研究。通过讲座、作业和最终项目，学生将学习设计、实现和理解他们自己的神经网络模型的必要技能。
 
-## 课程资源链接
+## 基本信息
 
-- Lecture 1: Introduction and Word Vectors 
+- 学习名称：NLP组队学习
+- 学习周期：12天
+- 学习形式：视频学习+实践
+- 人群定位：具备一定编程基础，有学习和梳理自然语言处理算法的需求
+- 难度等级：中
+- 先修组队学习：无
+- 后续推荐组队学习：比赛强化
+- 编程语言：不限
+
+## 课程介绍
+
+- Task 1: Introduction and Word Vectors （3天）
   - [slides](Lecture/Lecture1/slides/) 
   - [official notes](Lecture/Lecture1/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=8rXD5-xhemo)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=1)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/1)
+  - 简介
+    - 这一讲主要讲了NLP研究的对象，我们如何表示单词的含义，以及Word2Vec方法的基本原理。
+  - 参考
+    - [CS224N笔记(一)：Word Vector](https://zhuanlan.zhihu.com/p/59016893)
+    - [追剧CS224n|1-Introduction and Word Vectors](https://zhuanlan.zhihu.com/p/117603106)
+    - 
 
-- Lecture 2: Word Vectors and Word Senses
+- Task 2: Word Vectors and Word Senses （3天）
   - [slides](Lecture/Lecture2/slides/) 
   - [official notes](Lecture/Lecture2/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=2)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=2)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/2)
+  - 简介
+    - Task 1：Word Vector 主要介绍了Word2Vec模型，它是一种基于local context window的direct prediction预测模型，对于学习word vector，还有另一类模型是count based global matrix factorization，这一讲主要介绍了后一类模型以及Manning教 授组结合两者优点提出的 GloVe 模型。
+  - 参考
+    - [CS224N笔记(二)：GloVe](https://zhuanlan.zhihu.com/p/60208480)
+    - [追剧CS224n|2-Word Vectors and Word Senses](https://zhuanlan.zhihu.com/p/118488012)
 
-- Lecture 3: Word Window Classification, Neural Networks, and Matrix Calculus
-  - [slides](Lecture/Lecture3/slides/) 
-  - [official notes](Lecture/Lecture3/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=8CWyBNX6eDo)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=3)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/3)
-
-- Lecture 4: Backpropagation
-  - [slides](Lecture/Lecture4/slides/) 
-  - [official notes](Lecture/Lecture4/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=4)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=4)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/4)
-
-- Lecture 5: Dependency Parsing
-  - [slides](Lecture/Lecture5/slides/) 
-  - [official notes](Lecture/Lecture5/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=5)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=5)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/5)
-
-- Lecture 6: Language Models and RNNs
-  - [slides](Lecture/Lecture6/slides/) 
-  - [official notes](Lecture/Lecture6/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=6)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=6)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/6)
-
-- Lecture 7: Vanishing Gradients, Fancy RNNs
-  - [slides](Lecture/Lecture7/slides/) 
-  - [official notes](Lecture/Lecture7/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=7)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=7)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/7)
-
-- Lecture 8: Translation, Seq2Seq, Attention
-  - [slides](Lecture/Lecture8/slides/) 
-  - [official notes](Lecture/Lecture8/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=7m6noV5-l1E&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=8)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=8)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/8)
-
-- Lecture 9: Practical Tips for Projects
-  - [slides](Lecture/Lecture9/slides/) 
-  - [official notes](Lecture/Lecture9/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=9)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=9)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/9)
-
-- Lecture 10: Question Answering
-  - [slides](Lecture/Lecture10/slides/) 
-  - [official notes](Lecture/Lecture10/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yIdF-17HwSk&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=10)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=10)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/10)
-
-- Lecture 11: Convolutional Networks for NLP
-  - [slides](Lecture/Lecture11/slides/) 
-  - [official notes](Lecture/Lecture11/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=11)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=11)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/11)
-
-- Lecture 12: Subword Models
+- Task 3: Subword Models （3天）
   - [slides](Lecture/Lecture12/slides/) 
   - [official notes](Lecture/Lecture12/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=9oTHFx0Gg3Q&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=12)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=12)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/12)
+  - 简介
+    - 之前的 word2vec 和 glove 基本上都是基于word单词作为基本单位的，但是其缺点是不能很好的解决out-of-vocabulary即单词不在词汇库里的情况，且对于单词的一些词法上的修饰(morphology)处理的也不是很好。一个自然的想法就是能够利用比word更基本的组成来建立模型，以更好的解决这些问题。本节思考采用 n-gram 思想训练 word vector 模型，也就是 FastText。
+  - 参考
+    - [CS224N笔记(十二):Subword模型](https://zhuanlan.zhihu.com/p/69414965)
+    - [追剧CS224n|12-Subword Models](https://zhuanlan.zhihu.com/p/124811030)
 
-- Lecture 13: Contextual Word Embeddings
+- Task 4: Contextual Word Embeddings  （3天）
   - [slides](Lecture/Lecture13/slides/) 
   - [official notes](Lecture/Lecture14/official_notes/)
   - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=13)
   - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=13)
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/13)
+  - 简介
+    - 之前的 Word Vector 如 Word2Vec, GloVe, fastText 等对每个单词仅有一种表示，而通常单词的含义依赖于其上下文会有所不同，而且每个单词不仅有一方面特征，而应有各方面特征如语义特征，语法特征等，这一讲集中讨论contextual word representation，主要比较了ELMO，GPT与BERT模型。
+  - 参考
+    - [CS224N笔记(十三):ELMO, GPT与BERT](https://zhuanlan.zhihu.com/yuchiliu)
+    - [追剧CS224n|13-Contextual Word Embeddings](https://zhuanlan.zhihu.com/p/125520413)
 
-- Lecture 14: Transformers and Self-Attention
-  - [slides](Lecture/Lecture14/slides/) 
-  - [official notes](Lecture/Lecture14/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=14)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=14)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/14)
+## 课程作业介绍
 
-- Lecture 15: Natural Language Generation
-  - [slides](Lecture/Lecture15/slides/) 
-  - [official notes](Lecture/Lecture15/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=15)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=15)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/15)
+1. 英文词向量的探索
+   - [作业链接](Assignments/official/homework1/en/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21)
+   
+2. 中文词向量的探索
+   - [作业链接](Assignments/official/homework1/zh/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+  
+3. FastText 探索
+   - [作业链接](Assignments/official/homework1/FastText/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
 
-- Lecture 16: Coreference Resolution
-  - [slides](Lecture/Lecture16/slides/) 
-  - [official notes](Lecture/Lecture16/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=16)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=16)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/16)
-
-- Lecture 17: Multitask Learning
-  - [slides](Lecture/Lecture17/slides/) 
-  - [official notes](Lecture/Lecture17/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=9oTHFx0Gg3Q&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=17)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=17)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/17)
-
-- Lecture 18: Constituency Parsing, TreeRNNs
-  - [slides](Lecture/Lecture18/slides/) 
-  - [official notes](Lecture/Lecture18/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=18)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=18)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/18)
-
-- Lecture 19: Bias in AI
-  - [slides](Lecture/Lecture19/slides/) 
-  - [official notes](Lecture/Lecture19/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=19)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=19)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/19)
-
-- Lecture 20: Future of NLP + Deep Learning
-  - [slides](Lecture/Lecture20/slides/) 
-  - [official notes](Lecture/Lecture20/official_notes/)
-  - [youtube video](https://www.youtube.com/watch?v=yLYHDSv-288&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=20)
-  - [bilibili video](https://www.bilibili.com/video/BV1s4411N7fC?p=20)
-  - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/20)
-
-
-## 作业
-
-- 作业一
-  - [作业链接](Assignments/official/homework1/)
-  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21)
-
-- 作业二
-  - [作业链接](Assignments/official/homework2/)
-  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/22)
-
-- 作业三
-  - [作业链接](Assignments/official/homework3/)
-  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/23)
-
-- 作业四
-  - [作业链接](Assignments/official/homework4/)
-  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/24)
-
-- 作业五
-  - [作业链接](Assignments/official/homework5/)
-  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/25)
+4. Bert 探索
+   - [作业链接](Assignments/official/homework1/Bert/)
+   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
 
 ## 个人笔记、感悟和作业提交流程
 
@@ -197,4 +112,6 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
 1. [CS224n 课程主页](http://web.stanford.edu/class/cs224n/index.html)
 2. [CS224n-winter-together](https://github.com/xixiaoyao/CS224n-winter-together)
 3. [CS224n_winter2019_notes_and_assignments](https://github.com/lrs1353281004/CS224n_winter2019_notes_and_assignments)
+4. [组织NLP资料汇总(浩雷雷)](https://shimo.im/mindmaps/kRQ3rYX9T6WRQCCP?from=groupmessage)
+  
 
