@@ -36,7 +36,7 @@ Datawhale_NLP_CS224n 是由 Datawhale 组织成员 参考 微信公众号 [夕�
   - 参考
     - [CS224N笔记(一)：Word Vector](https://zhuanlan.zhihu.com/p/59016893)
     - [追剧CS224n|1-Introduction and Word Vectors](https://zhuanlan.zhihu.com/p/117603106)
-    - 
+
 
 - Task 2: Word Vectors and Word Senses （3天）
   - [slides](Lecture/Lecture2/slides/) 
