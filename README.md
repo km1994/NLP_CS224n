@@ -78,20 +78,33 @@
 可以从以下作业四选一：
 
 1. 英文词向量的探索
+   - 练习任务
+     - 完成 CS224n 配套作业
    - [作业链接](Assignments/official/homework1/en/)
    - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21)
    
 2. 中文词向量的探索
+   - 练习任务
+     - 特征词转化为 One-hot 矩阵
+     - 特征词转化为 tdidf 矩阵
+     - 利用 word2vec 进行 词向量训练
+     - word2vec 简单应用
+     - 利用 one-hot 、TF-idf、word2vec 构建句向量，然后 采用 朴素贝叶斯、条件随机场做分类
    - [作业链接](Assignments/official/homework1/zh/)
    - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
   
 3. FastText 探索
-   - [作业链接](Assignments/official/homework1/FastText/)
-   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+  - 练习任务
+     - FastText 词向量训练
+     - FastText 做分类
+  - [作业链接](Assignments/official/homework1/FastText/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
 
 4. Bert 探索
-   - [作业链接](Assignments/official/homework1/Bert/)
-   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+  - 练习任务
+     - Bert 做分类
+  - [作业链接](Assignments/official/homework1/Bert/)
+  - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
 
 ## 致谢
 
