@@ -36,7 +36,7 @@
   
 - Task 2: Word Vectors and Word Senses （3天）
   - 理论部分
-    - 回顾 Task 1：Word Vector 主要介绍了Word2Vec模型，它是一种基于local context window的direct prediction预测模型，对于学习word vector
+    - 回顾 Word2Vec模型
     - 介绍 count based global matrix factorization 方法
     - 介绍 GloVe 模型
   - 视频教程
