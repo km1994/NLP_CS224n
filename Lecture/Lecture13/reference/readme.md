@@ -2,7 +2,7 @@
 
 > 作者：江湖散人
 
-![BERT视频讲解：金金金](https://www.bilibili.com/video/BV17t4y1y7mT/)
+[BERT视频讲解：金金金](https://www.bilibili.com/video/BV17t4y1y7mT/)
 
 ## 引言
 
