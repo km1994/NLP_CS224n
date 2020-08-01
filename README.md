@@ -1,4 +1,4 @@
-# CS224n 组队学习 任务大纲 
+# CS224n 组队学习 （上） 任务大纲 
 
 ## 项目动机
 
@@ -32,7 +32,14 @@
   - 资源
     - [slides](Lecture/Lecture1/slides/) 
     - [official notes](Lecture/Lecture1/official_notes/)
+  - 优秀作业
+    - 鑫海：[https://blog.csdn.net/Rock_y/article/details/106940001](https://blog.csdn.net/Rock_y/article/details/106940001)
+    - 芙蕖：[https://blog.csdn.net/weixin_42691585/article/details/106928998](https://blog.csdn.net/weixin_42691585/article/details/106928998)
+    - lyman：[https://www.jianshu.com/p/8594cf51bf89](https://www.jianshu.com/p/8594cf51bf89)
+    - Bill：[https://billmazengou.github.io/2020/06/23/NLP1-Word-to-Vectors/](https://billmazengou.github.io/2020/06/23/NLP1-Word-to-Vectors/)
+    - 浩浩雷：[Lecture/Lecture1/reference/](Lecture/Lecture1/reference/) 
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/1)
+  
   
 - Task 2: Word Vectors and Word Senses （3天）
   - 理论部分
@@ -45,6 +52,11 @@
   - 资源
     - [slides](Lecture/Lecture2/slides/) 
     - [official notes](Lecture/Lecture2/official_notes/)
+  - 优秀作业
+    - 鑫海：[https://blog.csdn.net/Rock_y/article/details/106986586](https://blog.csdn.net/Rock_y/article/details/106986586)
+    - 芙蕖：[https://blog.csdn.net/weixin_42691585/article/details/106988635](https://blog.csdn.net/weixin_42691585/article/details/106988635)
+    - lyman：[https://blog.csdn.net/wuzhongqiang/article/details/106979179](https://blog.csdn.net/wuzhongqiang/article/details/106979179)
+    - Raymond：[CS224N Word Vectors 2 and Word Senses](Lecture/Lecture2/reference/) 
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/2)
   
 - Task 3: Subword Models （3天）
@@ -58,6 +70,9 @@
   - 资源
     - [slides](Lecture/Lecture12/slides/) 
     - [official notes](Lecture/Lecture12/official_notes/) 
+  - 优秀作业
+    - 芙蕖：[https://blog.csdn.net/weixin_42691585/article/details/107009195](https://blog.csdn.net/weixin_42691585/article/details/107009195)
+    -  12-Subword Models 读书笔记：[ 12-Subword Models 读书笔记](Lecture/Lecture12/reference/) 
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/12)
 
 - Task 4: Contextual Word Embeddings  （3天）
@@ -71,6 +86,9 @@
   - 资源
     - [slides](Lecture/Lecture13/slides/) 
     - [official notes](Lecture/Lecture14/official_notes/)
+  - 优秀作业
+    - 荒：[https://chenk.tech/posts/f2fb8471.html](https://chenk.tech/posts/f2fb8471.html)
+    - 江湖散人：[浅谈ELMO，GPT，BERT模型](Lecture/Lecture3/reference/) 
   - [问题解答区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/13)
 
 - Task 5: Homework （3天）（组队完成）
@@ -105,6 +123,13 @@
      - Bert 做分类
   - [作业链接](Assignments/official/homework1/Bert/)
   - [讨论区](https://github.com/km1994/Datawhale_NLP_CS224n/issues/21) 
+
+- 优秀作业
+  - winter：
+    - [fastText_classification](tps://github.com/exuding/NLP/blob/master/fastText_classification.ipynb)
+    - [bert_classification](https://github.com/exuding/NLP/blob/master/bert_classification.ipynb)
+  - 荒：[NLP项目Pipeline](https://chenk.tech/posts/aefe1ee4.html)
+  - 北尘南风：[https://github.com/hu-minghao/my_program/blob/master/NLP-task5%2Bbig%2Bhomework.ipynb](https://github.com/hu-minghao/my_program/blob/master/NLP-task5%2Bbig%2Bhomework.ipynb)
 
 ## 致谢
 
